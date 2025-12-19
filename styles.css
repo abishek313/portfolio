@@ -1,23 +1,27 @@
 :root {
   --bg: #ffffff;
   --surface: #f9fafb;
-  --text: #111111;
-  --text-hover: #B13BFF;
-} 
+  --head: #111111;
+  --text: #414141;
+  --text-hover: #6d27c8;
+}
 * {
+      margin: 0;
+      padding: 0;
+      
+}
+body{
+    color: var(--text);
     font-family: "poppins";
-    font-weight: 600;
-    margin: 0;
-    padding: 0;
-
+    font-weight: 400;
 }
 html {
     scroll-behavior: smooth;
 }
 .framer{
-    border: #111111 solid;
-    margin-left:1rem;
-    margin-right:1rem;
+    margin-top: 1rem;
+    margin-left:3rem;
+    margin-right:3rem;
 }
 .navi{
     display: flex;
@@ -25,6 +29,7 @@ html {
     align-items: center;
 }
 a{
+    margin: 1rem;
     color: var(--text);
     text-decoration: none;
 }
@@ -40,12 +45,13 @@ nav{
     flex-grow: 1;
     list-style: none;
     align-items: center;
-    gap: 2rem;
+    white-space: nowrap;
 }
 .logo{
+    white-space: nowrap;
     font-weight: 700;
     font-size: 1.4rem;
-    color: var(--text);
+    color: var(--head);
     font-weight: 500;
 }
 .bttn{
@@ -62,4 +68,51 @@ nav{
 .bttn:hover{
     color: #ffff;
     opacity: 0.8;
+}
+.space{
+    height: 9rem;
+}
+.hero{
+    display: flex;
+}
+.intro{
+    max-width: 48rem;
+    display: block;
+    letter-spacing: .07rem;
+    font-size: 1.2rem;
+    
+}
+.first{
+    font-weight: 400;
+}
+
+.hero-text{
+    display: flex;
+    display: block;
+
+}
+.second{
+    font-weight: bolder;
+    font-size: 4rem;
+    color: var(--text-hover);
+}
+.secondd{
+    color: #111111;
+    font-weight: bolder;
+    font-size: 3.5rem;
+}
+.image{
+    margin-left: 10rem;
+    height:25rem;
+    width:25rem;
+    border-radius: 50%;
+    overflow: hidden;
+    right: 0;
+    display: flex;
+    justify-content: right;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
