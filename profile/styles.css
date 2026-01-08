@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.frame{
+    margin: 1rem;
+}
+.nav{
+    border: 2px red solid;
+    display: flex;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+.logo_div{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+.logo{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+.right{
+    font-size: 2rem;
+    text-align: right;
+    flex-grow: 1;
+}
+.hero{
+}
+.name{
+    margin: 2rem;
+    margin-left: 15rem;
+    font-size: 4rem;
+    display: block;
+}
+.img{
+    width: 9rem;
+    height: 9rem;
+}
+.icon{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about{
+    display: flex;
+}
+.para{
+    flex-grow: 1;
+    margin-left: 2rem;
+}

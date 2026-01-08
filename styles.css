@@ -1,14 +1,13 @@
 :root {
-  --bg: #ffffff;
+    --bg: #ffffff;
   --surface: #f9fafb;
   --head: #111111;
   --text: #414141;
   --text-hover: #6d27c8;
 }
 * {
-      margin: 0;
-      padding: 0;
-      
+    margin: 0;
+    padding: 0;
 }
 body{
     color: var(--text);
@@ -74,13 +73,12 @@ nav{
 }
 .hero{
     display: flex;
+    border: #111111 solid;
 }
 .intro{
-    max-width: 48rem;
     display: block;
     letter-spacing: .07rem;
     font-size: 1.2rem;
-    
 }
 .first{
     font-weight: 400;
@@ -89,17 +87,20 @@ nav{
 .hero-text{
     display: flex;
     display: block;
-
 }
 .second{
     font-weight: bolder;
     font-size: 4rem;
     color: var(--text-hover);
 }
-.secondd{
+.second span{
     color: #111111;
-    font-weight: bolder;
+    font-weight: bold;
+    display: block;
     font-size: 3.5rem;
+}
+.divide{
+
 }
 .image{
     margin-left: 10rem;
@@ -112,7 +113,10 @@ nav{
     justify-content: right;
 }
 .icon {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width: 600px) {
+
 }
