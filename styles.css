@@ -73,7 +73,6 @@ nav{
 }
 .hero{
     display: flex;
-    border: #111111 solid;
 }
 .intro{
     display: block;
